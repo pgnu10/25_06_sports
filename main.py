@@ -98,7 +98,7 @@ def draw_dashboard():
             plt.hexbin(x_list, y_list, gridsize=60, cmap='turbo', bins='log')
             plt.xlabel('Distance (km)')
             plt.ylabel('Duration (min)')
-            plt.title('러닝 거리 x 러닝 시간 분포')
+            plt.title('Running Distance x Running Duration')
             plt.colorbar(label='log10(Count)')
             plt.tight_layout()
             st.pyplot(plt)
